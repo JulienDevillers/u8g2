@@ -1489,6 +1489,14 @@ struct controller controller_list[] =
     }
   },
   {
+    "ssd1681", 	25, 	25, 	"u8g2_ll_hvline_vertical_top_lsb", "u8x8_cad_011", "", COM_4WSPI | COM_3WSPI,
+    "Partly supported by U8x8, no HW flip, no contrast setting, v2 includes an optimized LUT", /* is_generate_u8g2_class= */ 1,
+    {
+	  { "200x200" },
+	  { NULL }
+    }
+  },
+  {
     "il3820", 	37, 	16, 	"u8g2_ll_hvline_vertical_top_lsb", "u8x8_cad_011", "", COM_4WSPI|COM_3WSPI,
     "Partly supported by U8x8, no HW flip, no contrast setting, V2 produces lesser screen-flicker", /* is_generate_u8g2_class= */ 1,
     {
